@@ -13,7 +13,6 @@
     position: absolute;
     top: 0.5rem;
     margin-right: 5rem;
-    z-index: -1;
     right: 0;
     object-fit: cover;
     height: 100vh;
@@ -26,16 +25,17 @@
     padding: 2rem;
     font-weight: 700;
     display: flex;
+    z-index: 1;
     flex-direction: column;
     justify-content: center;
 }
 
 .introName {
-    border-right: 3px solid yellow;
-    width: 13ch;
+    border-right: 3px solid blue;
+    width: fit-content;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2.5s steps(19), blink 0.5s step-end infinite alternate;
+    animation: blink 0.5s step-end infinite alternate;
 }
 
 .location {
@@ -52,12 +52,6 @@
 .link:hover {
     transform: scale(2, 2);
     transition: ease-in-out 0.3s;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
 }
 
 @keyframes blink {
@@ -98,7 +92,7 @@
 
 @media screen and (max-width:400px) {
 
-    .introName,
+    .iam,
     .hello {
         color: blue;
     }

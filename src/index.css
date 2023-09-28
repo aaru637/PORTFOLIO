@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans&family=Oxygen&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Josefin+Sans&family=Oxygen&family=Roboto+Slab&family=Croissant+One&family=Bree+Serif&family=Martian+Mono&family=Exo+2:ital@1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,13 +11,6 @@
     background: transparent;
 }
 
-body {
-    /* background: #b3ffab;
-    background: -webkit-linear-gradient(0deg, #b3ffab 0%, #12fff7 100%);
-    background: linear-gradient(0deg, #b3ffab 0%, #12fff7 100%); */
-    background: #2b2f77;
-    background: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
-    background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
-    overflow: hidden;
-    overflow-y: scroll;
+html {
+    scroll-behavior: smooth;
 }

@@ -1,10 +1,18 @@
 import React from 'react';
 import Home from './Home/Home';
+import About from './About/About';
+import Project from './Projects/Project';
+import ContactMe from './ContactMe/ContactMe';
+import NavBar from './Home/NavBar/NavBar';
 
 const App = () => {
   return (
     <>
-      <Home></Home>
+      <NavBar />
+      <Home />
+      <About />
+      <Project />
+      <ContactMe />
     </>
   )
 }

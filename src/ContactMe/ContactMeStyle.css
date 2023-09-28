@@ -1,0 +1,8 @@
+.contactBody {
+    overflow: hidden;
+    min-height: 100vh;
+    padding-top: 6rem;
+    background: #2ea0ef;
+    background: -webkit-radial-gradient(circle, #2ea0ef 0%, #43e0e6 100%);
+    background: radial-gradient(circle, #2ea0ef 0%, #43e0e6 100%);
+}

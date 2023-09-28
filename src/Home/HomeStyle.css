@@ -1,0 +1,9 @@
+.homeBody {
+    color: black;
+    min-height: 100vh;
+    padding-top: 4rem;
+    overflow: hidden;
+    background: #eaeaf3;
+    background: -webkit-radial-gradient(circle, #eaeaf3 0%, #e0d2e6 100%);
+    background: radial-gradient(circle, #eaeaf3 0%, #e0d2e6 100%);
+}

@@ -1,0 +1,8 @@
+.projectBody {
+    overflow: hidden;
+    min-height: 100vh;
+    padding-top: 6rem;
+    background: #f103e6;
+    background: -webkit-radial-gradient(circle, #f103e6 0%, #ee7246 100%);
+    background: radial-gradient(circle, #f103e6 0%, #ee7246 100%);
+}

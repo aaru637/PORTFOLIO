@@ -3,11 +3,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      Mooli: ["Mooli"],
-      Dela: ["Dela Gothic One"],
-      Josefin: ["Josefin Sans"],
-      Oxygen: ["Oxygen"],
-      Roboto_Slab: ["Roboto Slab"],
+      Mooli: ["Mooli", "serif"],
+      Josefin: ["Josefin Sans", "serif"],
+      Oxygen: ["Oxygen", "serif"],
+      Roboto_Slab: ["Roboto Slab", "serif"],
+      Croissant: ["Croissant One", "serif"],
+      Bree_Serif: ["Bree Serif", "serif"],
+      Martian: ["Martian Mono", "serif"],
+      Exo: ["Exo 2", "serif"]
     },
     screens: {
       "sm": { "min": "320px", "max": "767px" },

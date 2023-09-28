@@ -1,0 +1,9 @@
+.aboutBody {
+    color: black;
+    min-height: 100vh;
+    padding-top: 4rem;
+    overflow: hidden;
+    background: #50b268;
+    background: -webkit-radial-gradient(circle, #50b268 0%, #4fe0df 100%);
+    background: radial-gradient(circle, #50b268 0%, #4fe0df 100%);
+}

@@ -1,13 +1,12 @@
 import React from 'react'
-import NavBar from './NavBar/NavBar'
 import Content from './Content/Content'
+import './HomeStyle.css';
 
 const Home = () => {
     return (
-        <>
-            <NavBar></NavBar>
+        <div className='homeBody' id='home'>
             <Content></Content>
-        </>
+        </div>
     )
 }
 
