@@ -3,7 +3,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import Project from './Projects/Project';
 import ContactMe from './ContactMe/ContactMe';
-import NavBar from './Home/NavBar/NavBar';
+import NavBar from './NavBar/NavBar';
 
 const App = () => {
   return (

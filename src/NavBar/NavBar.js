@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import Logo from '../../assets/logos/DK_LOGO_TRANSPARENT.png';
+import Logo from '../assets/logos/DK_LOGO_TRANSPARENT.png';
 import './NavStyles.css';
 
 const NavBar = () => {
     const [hamburger, setHamburger] = useState(false);
     const page = (page) => {
-        document.getElementById(page).scrollIntoView({ behavior: 'smooth' });
+        const element = document.getElementById(page);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' })
+        }
     }
     return (
         <>
