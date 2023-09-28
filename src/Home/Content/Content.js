@@ -3,11 +3,8 @@ import Ben from '../../assets/images/Ben2.png';
 import './ContentStyles.css';
 import Location from '../../assets/icons/home_page_icons/Location.png';
 import Instagram from '../../assets/icons/home_page_icons/Instagram.png';
-import Facebook from '../../assets/icons/home_page_icons/Facebook.png';
-import Whatsapp from '../../assets/icons/home_page_icons/Whatsapp.png';
 import LinkedIn from '../../assets/icons/home_page_icons/LinkedIn.png';
 import GitHub from '../../assets/icons/home_page_icons/GitHub.png';
-import Twitter from '../../assets/icons/home_page_icons/Twitter.png';
 
 const Content = () => {
     return (
@@ -26,12 +23,9 @@ const Content = () => {
                         </span>
                     </div>
                     <div className='links'>
-                        <img className='link cursor-pointer  overflow-clip' src={Instagram} alt='Instagram' width={40} height={40} />
-                        <img className='link cursor-pointer  overflow-clip' src={Facebook} alt='Facebook' width={40} height={40} />
-                        <img className='link cursor-pointer  overflow-clip' src={Whatsapp} alt='Whatsapp' width={40} height={40} />
-                        <img className='link cursor-pointer  overflow-clip' src={LinkedIn} alt='LinkedIn' width={40} height={40} />
-                        <img className='link cursor-pointer  overflow-clip' src={GitHub} alt='GitHub' width={40} height={40} />
-                        <img className='link cursor-pointer  overflow-clip' src={Twitter} alt='Twitter' width={40} height={40} />
+                        <a href='https://instagram.com/dhineshkumar_d_2002?utm_source=qr&igshid=OGIxMTE0OTdkZA==' target='blank'><img className='link cursor-pointer  overflow-clip' src={Instagram} alt='Instagram' width={40} height={40} /></a>
+                        <a href='https://www.linkedin.com/in/dhineshkumar-dhandapani-178334202' target='blank'><img className='link cursor-pointer  overflow-clip' src={LinkedIn} alt='LinkedIn' width={40} height={40} /></a>
+                        <a href='https://github.com/aaru637' target='blank'><img className='link cursor-pointer  overflow-clip' src={GitHub} alt='GitHub' width={40} height={40} /></a>
                     </div>
                 </div>
                 <img src={Ben} alt='Profile' className='bg' />

@@ -1,9 +1,9 @@
 .navbar {
     display: flex;
-    padding: 1rem 0;
     justify-content: space-between;
     position: sticky;
     top: 0;
+    padding-bottom: 2rem;
     z-index: 2;
     background: #eaeaf3;
     background: -webkit-radial-gradient(circle, #eaeaf3 0%, #e0d2e6 100%);
@@ -18,107 +18,19 @@
     border-radius: 20%;
 }
 
-.burger {
-    display: none;
-}
-
-.burger-menu {
-    margin-right: 2rem;
-    margin-top: 1.3rem;
-    width: 1rem;
+.menu-card {
     display: flex;
-    height: fit-content;
-    gap: 0.5rem;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
-.burger-icon.active:nth-child(1) {
-    transform: rotate(45deg) translate(0.95rem, 0.10rem);
-    transition: ease-out 0.5s;
-}
-
-.burger-icon.active:nth-child(2) {
-    transform: scale(0.001);
-    transition: ease-out 0.5s;
-}
-
-.burger-icon.active:nth-child(3) {
-    transform: rotate(135deg) translate(-0.95rem, 0.25rem);
-    transition: ease-out 0.5s;
-}
-
-.burger-icon.inactive {
-    transform: rotate(0) translate(0);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
-}
-
-.burger-icon {
-    width: 2.5rem;
-    height: 0.3rem;
-    background-color: black;
-    border-radius: 0.5em;
-}
-
-.menu-bg.view {
-    background: rgba(26, 185, 127, 0.55);
-    -webkit-backdrop-filter: blur(13px);
-    backdrop-filter: blur(13px);
-    border: 1px solid rgba(26, 185, 127, 0.275);
-    color: white;
-    transition: ease-in-out 0.3s;
-    position: absolute;
-    right: 1px;
-    z-index: 2;
-    padding: 1.2rem;
-    margin: 0 2rem 2rem 2rem;
-    border-radius: 1rem;
-}
-
-.menu-bg.unview {
-    position: absolute;
-}
-
-.menu-card.active {
+.menu {
     display: flex;
-    flex-direction: column;
-}
-
-.menu-card.inactive {
-    display: none;
 }
 
 
 @media screen and (max-width : 645px) {
-    .burger-menu {
-        display: flex;
-    }
-
-    .burger {
-        display: block;
-    }
-
-    .logo.end {
-        display: none;
-    }
 
     .menu {
         display: none;
-    }
-}
-
-@media screen and (min-width : 646px) {
-    .burger-menu {
-        display: none;
-    }
-
-    .menu-card {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .menu {
-        display: flex;
     }
 }
