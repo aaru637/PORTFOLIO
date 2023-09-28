@@ -5,12 +5,6 @@ import { Link } from 'react-scroll';
 
 const NavBar = () => {
     const [hamburger, setHamburger] = useState(false);
-    const page = (page) => {
-        const element = document.getElementById(page);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' })
-        }
-    }
     return (
         <>
             <nav className='navbar'>
